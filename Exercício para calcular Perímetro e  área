@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define PI 3.14  
+int main(){
+
+    printf("calculo da area e perimetro de circu.\n\n");
+    printf("digite o valor do raio\n");
+    float raio;
+    scanf("%f",&raio);
+    float area = PI*raio*raio;
+    float perim = 2*PI*raio;
+    printf("Area da circu: %.2f\n",area);
+    printf("Perimetro: %.2f\n",perim);
+
+    return 0;
+}
