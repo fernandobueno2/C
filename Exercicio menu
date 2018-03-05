@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int opc;
+    printf("Escolha sua opcao\n");
+    printf("1 - Cafe\n");
+    printf("2 - Leite\n");
+    printf("3 - Heineken\n");
+    printf("Digite um numero: ");
+    scanf("%d",&opc);
+    switch(opc){
+case 1:
+    printf("Sua escolha foi cafe\n");
+    break;
+case 2:
+    printf("Sua escolha foi leite\n");
+    break;
+case 3:
+    printf("Best escolha de cervada\n\7");
+    break;
+    default:
+    printf("Opcao invalidede\n");
+
+    }
+
+
+}
